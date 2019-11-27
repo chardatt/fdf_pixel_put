@@ -19,9 +19,9 @@ int			main(int argc, char **argv)
 	CHECK_ERROR((init = (t_mlx*)malloc(sizeof(t_mlx))));
 	set_var(init);
 	display_control(init);
-	str = convert_to_array(argv[1]);
+	str = tab_to_array(argv[1]);
 	set_map_dim(init, str);
-	convert_str_int(argv[1], init);
+	str_to_int(argv[1], init);
 	init->tab = set_tab_coord(init);
 	action_with_map(init);
 	mlx_hook(init->win, 2, 3, keyboard_actions, init);

@@ -11,8 +11,8 @@
 # **************************************************************************** #
 
 NAME = fdf
-SRCS = convert_str_int.c \
-		  convert_to_array.c \
+SRCS = str_to_int.c \
+		  tab_to_array.c \
 		  main.c \
 		  set_map_dim.c \
 		  set_var_menu.c \

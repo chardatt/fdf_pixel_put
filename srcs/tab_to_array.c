@@ -35,7 +35,7 @@ char		*fd_to_tab(int fd)
 	return (tab);
 }
 
-char		**convert_to_array(char *argv)
+char		**tab_to_array(char *argv)
 {
 	int		fd;
 	char	*tab;

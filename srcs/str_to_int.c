@@ -1,6 +1,6 @@
 #include "../includes/fdf.h"
 
-void		convert_str_int(char *argv, t_mlx *init)
+void		str_to_int(char *argv, t_mlx *init)
 {
 	t_map	map;
 

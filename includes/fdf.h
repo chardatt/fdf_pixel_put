@@ -109,9 +109,9 @@ typedef struct		s_mlx
 void				ft_error(void);
 void				set_var(t_mlx *init);
 void				display_control(t_mlx *init);
-char				**convert_to_array(char *argv);
+char				**tab_to_array(char *argv);
 void				set_map_dim(t_mlx *init, char **str);
-void				convert_str_int(char *argv, t_mlx *init);
+void				str_to_int(char *argv, t_mlx *init);
 t_matrice			**set_tab_coord(t_mlx *init);
 void				action_with_map(t_mlx *init);
 int					keyboard_actions(int keycode, t_mlx *init);
