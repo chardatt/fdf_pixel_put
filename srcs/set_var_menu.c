@@ -5,7 +5,7 @@ void		set_var(t_mlx *init)
 	init->zoom = 17;
 	init->x_move = WIN_WIDTH / 2;
 	init->y_move = WIN_HEIGHT / 2;
-	init->depth = -2;
+	init->depth = 0;
 	init->color_1 = COLOR_BLUE;
 	init->color_2 = COLOR_PINK;
 	init->const_1 = 2;
